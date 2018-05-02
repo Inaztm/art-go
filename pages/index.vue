@@ -3,11 +3,8 @@
     <div>
       <app-logo/>
       <h1 class="title">
-        art-gooo
+        art-go
       </h1>
-      <h2 class="subtitle">
-        Nuxt.js project
-      </h2>
       <div class="links">
         <a
           href="https://nuxtjs.org/"

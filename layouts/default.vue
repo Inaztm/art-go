@@ -1,6 +1,5 @@
 <template>
   <div>
-    Nex
     <nuxt/>
   </div>
 </template>
