@@ -13,6 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "flickr-sdk": "^3.7.0",
     "nuxt": "^1.0.0"
   },
   "devDependencies": {
