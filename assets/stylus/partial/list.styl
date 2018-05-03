@@ -1,0 +1,42 @@
+
+.list
+  display: block
+
+  &__link
+    display: block
+    padding: 15px sp
+    color: #777777
+
+    &:hover
+    &.--active
+      color: c-black
+
+    &.--active
+      position: relative
+
+      &:before
+        content: ""
+        z-index: 1111
+        position: absolute
+        left: 0px
+        top: 50%
+        transform: translateY(-50%)
+        height: 37%
+        width: 5px
+        background-color: c-black
+        border-radius: 0 3px 3px 0
+        animation: scale_birk 1.7s linear infinite
+
+  &.--big-space
+    padding-top: sp
+    padding-bottom: sp
+
+
+@keyframes scale_birk
+  0%
+    height: 37%
+    width: 5px
+
+  27%
+    height: 57%
+    width: 1px

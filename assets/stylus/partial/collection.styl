@@ -1,0 +1,34 @@
+
+.collection
+  display: flex
+  align-items: center
+  margin-bottom: sp
+
+  &__image
+    width: 25%
+    height: 178px
+    margin-right: sp-sm
+    background-color: c-gray-mm
+    border-radius: radius
+
+    &:last-child
+      margin-right: 0
+
+    &.--sm
+      height: 75px
+
+  &__images
+    flex: 1
+    display: flex
+    margin-left: sp
+
+    &.--wrap
+      flex-wrap: wrap
+      margin-left: 0
+
+      & .collection__image
+        width: 23.17%
+        margin-bottom: sp-sm
+  
+  &__space
+    margin-right: sp-sm
