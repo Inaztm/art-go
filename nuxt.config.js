@@ -15,7 +15,8 @@ module.exports = {
   },
 
   css: [
-    '~/assets/micon/css/micon.min.css'
+    '~/assets/micon/css/micon.min.css',
+    '~/assets/flexboxgrid.min.css'
   ],
 
   /*

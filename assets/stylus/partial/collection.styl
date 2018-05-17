@@ -1,34 +1,36 @@
 
-.collection
+.collections
   display: flex
-  align-items: center
+  flex-wrap: wrap
+  margin-left: -35px
+
+.collection
+  transition: box-shadow .3s
+  display: flex
+  flex-direction: column
   margin-bottom: sp
+  padding: sp-sm
+  background-color: c-white
+  border-radius: radius
+  box-shadow: 0 13px 35px rgba(10, 10, 10, .07)
 
-  &__image
-    width: 25%
-    height: 178px
-    margin-right: sp-sm
-    background-color: c-gray-mm
-    border-radius: radius
-
-    &:last-child
-      margin-right: 0
-
-    &.--sm
-      height: 75px
-
-  &__images
-    flex: 1
+  &__cards
     display: flex
-    margin-left: sp
 
-    &.--wrap
-      flex-wrap: wrap
-      margin-left: 0
+  &__card
+    width: 33%
+    height: 73px
+    background-color: c-gray-sm
+    background-size: cover
+    margin: 3px 
+    border-radius: 3px
 
-      & .collection__image
-        width: 23.17%
-        margin-bottom: sp-sm
+  &__title
+    margin-top: sp-mm
+    background: none
+    color: c-black
+    font-family: 'lato-semibold'
+    font-size: 23px
   
-  &__space
-    margin-right: sp-sm
+  &:hover
+    box-shadow: 0 17px 35px rgba(10, 10, 10, .13)

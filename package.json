@@ -13,8 +13,10 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "flickr-sdk": "^3.7.0",
-    "nuxt": "^1.0.0"
+    "flexboxgrid": "^6.3.1",
+    "node-behance-api": "^1.3.0",
+    "nuxt": "^1.0.0",
+    "yarn": "^1.6.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
